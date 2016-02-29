@@ -1,0 +1,8 @@
+#container {
+    display: flex;
+    height: 100%;
+    margin-top: 100px;
+
+    @import "cpt/sidebar";
+    @import "cpt/content";
+}

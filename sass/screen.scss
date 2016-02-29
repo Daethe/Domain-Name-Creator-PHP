@@ -1,0 +1,9 @@
+@import "compass/reset";
+
+// GENERAL STYLE COMPONENT
+@import "general/vars";
+@import "general/config";
+
+// SPECIFIC STYLE COMPONENT
+@import "components/menu";
+@import "components/container";
