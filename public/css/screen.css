@@ -79,3 +79,19 @@ html, body {
   height: 100%;
   background: #292929;
 }
+#container .sidebar a {
+  display: block;
+  padding: 15px;
+  border-bottom: 1px solid #2F2F2F;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #E74C3C;
+  text-align: center;
+  transition: background .3s;
+}
+#container .sidebar a:hover {
+  background: rgba(231, 76, 60, 0.3);
+}
+#container .content {
+  width: calc(100% - $sidebarWidth);
+}

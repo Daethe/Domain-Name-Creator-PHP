@@ -1,5 +1,22 @@
 .sidebar {
-    width: 250px;
+    width: $sidebarWidth;
     height: 100%;
     background: $color4;
+}
+
+.sidebar a {
+    display: block;
+    padding: 15px;
+    border-bottom: 1px solid $color3;
+
+    font-size: 1.2em;
+    text-decoration: none;
+    color: $color5;
+    text-align: center;
+
+    transition: background .3s;
+}
+
+.sidebar a:hover {
+    background: rgba($color5, $aHoverAlpha);
 }
